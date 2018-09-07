@@ -1,2 +1,2 @@
 %% Clear 
-deneme deneme
+clc; clear all; close all;
