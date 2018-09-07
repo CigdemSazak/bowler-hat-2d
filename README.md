@@ -8,11 +8,8 @@
 If you find this code useful in your research and development, please consider citing:
 
     @article{Sazak2018,
-        author      = {Boguslaw Obara and Mark Fricker and David Gavaghan and Vicente Grau},
-        title       = {Contrast-independent curvilinear structure detection in biomedical images},
-        journal     = {IEEE Transactions on Image Processing},
-        volume      = {21},
-        number      = {5},
-        pages       = {2572-2581},
-        year        = {2012}
+        author      = {\c{C}i\u{g}dem Sazak and Carl J. Nelson and BoguslawObara},
+        title       = {The Multiscale Bowler-Hat Transform\\ for Blood Vessel Enhancement in Retinal Images},
+        journal     = {Pattern Recognition},
+        year        = {2018}
     }
