@@ -3,7 +3,7 @@
 
 | INPUT | OUTPUT |
 | ------------- | ------------- |
-| <img src="https://github.com/CigdemSazak/BowlerHat/master/im/jellyfish.png" width="250">  | <img src="https://github.comCigdemSazak/BowlerHat/master/im/jellyfish_v.png" width="250"> |
+| <img src="https://github.com/CigdemSazak/bowler-hat-2d/im/jellyfish.png" width="250">  | <img src="https://github.comCigdemSazak/bowler-hat-2d/im/jellyfish_bh.png" width="250"> |
 
 If you find this code useful in your research and development, please consider citing:
 
@@ -13,3 +13,6 @@ If you find this code useful in your research and development, please consider c
         journal     = {Pattern Recognition},
         year        = {2018}
     }
+
+      bowler-hat-2d/im/jellyfish.png
+    
