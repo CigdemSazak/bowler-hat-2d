@@ -1,5 +1,6 @@
 # bowler-hat-2d
 2D curvilinear structure enhancement based on mathematical morphology.
+
 | INPUT | OUTPUT |
 | ------------- | ------------- |
 | <img src="https://github.com/CigdemSazak/BowlerHat/master/im/jellyfish.png" width="250">  | <img src="https://github.comCigdemSazak/BowlerHat/master/im/jellyfish_v.png" width="250"> |
