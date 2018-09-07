@@ -3,7 +3,7 @@
 
 | INPUT | OUTPUT |
 | ------------- | ------------- |
-| <img src="https://github.com/CigdemSazak/master/bowler-hat-2d/im/jellyfish.png" width="250">  | <img src="https://github.comCigdemSazak/bowler-hat-2d/im/jellyfish_bh.png" width="250"> |
+| <img src="https://user-images.githubusercontent.com/16241900/45232809-9ce11480-b2c8-11e8-923e-ced86413e967.png" width="250">  | <img src="https://user-images.githubusercontent.com/16241900/45232843-cd28b300-b2c8-11e8-853a-2db42d125413.png" width="250"> |
 
 If you find this code useful in your research and development, please consider citing:
 
@@ -14,5 +14,4 @@ If you find this code useful in your research and development, please consider c
         year        = {2018}
     }
 
-      bowler-hat-2d/im/jellyfish.png
-    
+   
