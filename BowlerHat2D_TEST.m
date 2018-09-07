@@ -1,4 +1,4 @@
-% Clear
+%% Clear
 clc; clear; close all;
 
 %% Load Image 
