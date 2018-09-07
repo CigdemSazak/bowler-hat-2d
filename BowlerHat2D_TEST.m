@@ -10,7 +10,7 @@ im = imcomplement(im);                 % use when the background is white and ve
 im = Normalize(im);
 
 %% Bowler Hat
-si = 15;                              % size of the disk
+si = 15;                              % size of the disk element
 no = 30;                              % number of orientation
 bh = BowlerHat2D(im,si,no);           % call the bowler-hat script
 
