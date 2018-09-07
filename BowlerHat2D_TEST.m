@@ -1,9 +1,6 @@
 %% Clear
 clc; clear; close all;
 
-%% path
-addpath('./lib')
-
 %% Load Image 
 im=imread('jellyfish.png');
 
