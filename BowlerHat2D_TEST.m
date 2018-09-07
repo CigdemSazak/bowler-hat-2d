@@ -1,5 +1,4 @@
-%% clear
-clc; clear; close all;
+%% clear clc; clear; close all;
 
 %% Load Image 
 im=imread('jellyfish.png');
