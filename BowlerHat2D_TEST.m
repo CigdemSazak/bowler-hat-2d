@@ -1,7 +1,7 @@
 %% clear
 clc; clear all; close all;
 
-%% Load Image 
+%% Load Image
 im=imread('jellyfish.png');
 
 %% Normalize
