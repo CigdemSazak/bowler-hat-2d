@@ -17,16 +17,16 @@
 clc; clear all; close all;
 
 %% Load Image
-im=imread('jellyfish.png');
+im=imread('./im/test.png');
  
 % Normalize
 % im = rgb2gray(im);                   % use when the data is rgb format
-im = imcomplement(im);                 % use when the background is white and vessels are black
+% im = imcomplement(im);               % use when the background is white and vessels are black
 im = double(im); im = (im - min(im(:))) / (max(im(:)) - min(im(:))); % normalize the input image.
 
 %% Bowler Hat
-si = 15;                              % size of the disk element
-no = 30;                              % number of orientation
+si = 20;                              % size of the disk element
+no = 15;                              % number of orientation
 bh = BowlerHat2D(im,si,no);           % call the bowler-hat script
 
 %Plotting
