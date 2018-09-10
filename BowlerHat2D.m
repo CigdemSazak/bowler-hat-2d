@@ -25,5 +25,5 @@ for i=1:length(s)
 end
 imr(triv) = 0;
 imda = max(imd,[],3);
-imda= Normalize(imda);
+imda= double(imda); imda = (imda - min(imda(:))) / (max(imda(:)) - min(imda(:)));
 end
