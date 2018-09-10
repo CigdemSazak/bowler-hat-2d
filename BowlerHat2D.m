@@ -16,7 +16,7 @@ for i=1:length(s)
    se = strel('disk',round(s(i)/2));
    imod(:,:,i) = imopen(im,se);
 end
-%% Diff
+
 imd = zeros(size(im,1),size(im,2),length(s));
 imr = zeros(size(im,1),size(im,2),length(s));
 imm = zeros(size(im,1),size(im,2),length(s));
