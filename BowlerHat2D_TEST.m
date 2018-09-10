@@ -1,3 +1,18 @@
+%   INPUT:
+%       im    - 2D gray image,
+%       si    - expected maximum width of the vessel,
+%       no    - number of the directions,
+%
+%   OUTPUT:
+%       Bh    - enhanced resultant image,
+%
+%   USAGE:
+%      si = 15; no = 30; 
+%      Bh = BowlerHat2D(im,si,no);   
+%
+%   AUTHOR:
+%       Cigdem Sazak, Carl J Nelson, Boguslaw Obara, http://boguslawobara.net/
+
 %% Clear 
 clc; clear all; close all;
 
@@ -17,4 +32,4 @@ bh = BowlerHat2D(im,si,no);           % call the bowler-hat script
 %Plotting
 figure; 
 subplot(121); imagesc(im); colormap jet; axis off; axis equal; axis tight; title('original');
-subplot(122); imagesc(bh); colormap jet; axis off; axis equal; axis tight; title('bowler-hat');
+subplot(122); imagesc(Bh); colormap jet; axis off; axis equal; axis tight; title('bowler-hat');
