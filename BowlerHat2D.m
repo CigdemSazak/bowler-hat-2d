@@ -1,9 +1,6 @@
 function imda = BowlerHat2D(im,si,no)
-%FUNCTION_NAME - One line description of what the function or script performs (H1 line)
-%Optional file header info (to give more details about the function than in the H1 line)
-%Optional file header info (to give more details about the function than in the H1 line)
-%Optional file header info (to give more details about the function than in the H1 line)
-s = 2:si; %size of the disk
+%BowlerHat2D - multiscale vessel enhancement method
+
 o = 0:180/no:180-180/no; %number of orientation
 
 imol = zeros(size(im,1),size(im,2),length(s),length(o));
